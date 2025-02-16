@@ -3,7 +3,7 @@ import joblib
 import numpy as np
 
 # Load model and scaler
-model = joblib.load("model.pkl")
+model = joblib.load("iris_model.pkl")
 scaler = joblib.load("scaler.pkl")
 
 st.title("Iris Flower Classification")
